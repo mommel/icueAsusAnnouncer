@@ -41,6 +41,8 @@ The script automatically:
 3. Publishes the C# COM server targeting both frameworks natively.
 4. Wraps everything into a distributed `.exe` in the `Release\` output folder.
 
+![Info](info.jpg)
+
 ## Architecture
 
 - **`src/AuraGpuBridge` (C++)**: Leverages NVIDIA NVAPI `pNvAPI_I2CWriteEx` commands interacting directly over the ENE SMBus registers for instantaneous RGB applying on ASUS GPUs.
