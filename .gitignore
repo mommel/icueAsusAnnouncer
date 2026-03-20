@@ -1,0 +1,7 @@
+*/bin
+*/obj
+*/.vs
+Release/
+src/*/obj
+src/*/bin
+
